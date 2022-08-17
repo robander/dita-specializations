@@ -3,8 +3,10 @@
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
 <!--  MODULE:    DITA Subject Classification Domain                -->
-<!--  VERSION:   1.2                                               -->
-<!--  DATE:      November 2009                                     -->
+<!--  VERSION:   2.0                                               -->
+<!--  DATE:      [[[Release date]]]                                     -->
+<!--  PURPOSE:   Define elements and specialization attributes     -->
+<!--             for Map Subject Classification Domain             -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
@@ -13,18 +15,18 @@
 <!--                                                               -->
 <!--  Refer to this file by the following public identifier or an  -->
 <!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA Map Subject Classification Domain//EN" -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Subject Classification Domain//EN" -->
 <!--       Delivered as file "classifyDomain.mod"                       -->
 <!-- ============================================================= -->
 <!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
 <!--                                                               -->
 <!-- PURPOSE:    Define elements and specialization attributes     -->
-<!--             for Map Subject Classification Domain             -->
+<!--             for the subject classification domain             -->
 <!--                                                               -->
 <!-- ORIGINAL CREATION DATE:                                       -->
 <!--             February 2008                                     -->
 <!--                                                               -->
-<!--             (C) Copyright OASIS Open 2008, 2009.              -->
+<!--             (C) Copyright OASIS Open 2008, 2022.              -->
 <!--             (C) Copyright IBM Corporation 2005, 2007.         -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
@@ -32,6 +34,7 @@
 <!--    2008.02.13 RDA: Created file based upon prototype from IBM -->
 <!--    2010.01.21 RDA: Update subjectCell content to remove       -->
 <!--                    duplicate element inclusion                -->
+<!--    2022.08.17 KJE  Updated for DITA 2.0                       -->
 <!-- ============================================================= -->
 <!--                                                               -->
 
@@ -64,19 +67,13 @@
                           %topicref;)*)"
 >
 <!ENTITY % topicsubject.attributes
-              "navtitle
-                          CDATA
-                                    #IMPLIED
-               href
+              "href
                           CDATA
                                     #IMPLIED
                keyref
                           CDATA
                                     #IMPLIED
                keys
-                          CDATA
-                                    #IMPLIED
-               query
                           CDATA
                                     #IMPLIED
                type
@@ -104,9 +101,6 @@
                            yes |
                            -dita-use-conref-target)
                                     'no'
-               outputclass
-                          CDATA
-                                    #IMPLIED
                %univ-atts;"
 >
 <!ELEMENT  topicsubject %topicsubject.content;>
@@ -121,19 +115,13 @@
                           %topicref;)*)"
 >
 <!ENTITY % topicapply.attributes
-              "navtitle
-                          CDATA
-                                    #IMPLIED
-               href
+              "href
                           CDATA
                                     #IMPLIED
                keyref
                           CDATA
                                     #IMPLIED
                keys
-                          CDATA
-                                    #IMPLIED
-               query
                           CDATA
                                     #IMPLIED
                collection-type
@@ -175,9 +163,6 @@
                            yes |
                            -dita-use-conref-target)
                                     'no'
-               outputclass
-                          CDATA
-                                    #IMPLIED
                %univ-atts;"
 >
 <!ELEMENT  topicapply %topicapply.content;>
@@ -190,19 +175,13 @@
                          (%data.elements.incl;)*)"
 >
 <!ENTITY % subjectref.attributes
-              "navtitle
-                          CDATA
-                                    #IMPLIED
-               href
+              "href
                           CDATA
                                     #IMPLIED
                keyref
                           CDATA
                                     #IMPLIED
                keys
-                          CDATA
-                                    #IMPLIED
-               query
                           CDATA
                                     #IMPLIED
                collection-type
@@ -244,9 +223,6 @@
                            yes |
                            -dita-use-conref-target)
                                     'no'
-               outputclass
-                          CDATA
-                                    #IMPLIED
                %univ-atts;"
 >
 <!ELEMENT  subjectref %subjectref.content;>
@@ -262,9 +238,6 @@
 >
 <!ENTITY % topicSubjectTable.attributes
               "%topicref-atts-no-toc;
-               outputclass
-                          CDATA
-                                    #IMPLIED
                %univ-atts;"
 >
 <!ELEMENT  topicSubjectTable %topicSubjectTable.content;>
@@ -327,14 +300,14 @@
 <!--             SPECIALIZATION ATTRIBUTE DECLARATIONS             -->
 <!-- ============================================================= -->
   
-<!ATTLIST  topicsubject %global-atts;  class CDATA "+ map/topicref classify-d/topicsubject ">
-<!ATTLIST  topicapply   %global-atts;  class CDATA "+ map/topicref classify-d/topicapply ">
-<!ATTLIST  subjectref   %global-atts;  class CDATA "+ map/topicref classify-d/subjectref ">
-<!ATTLIST  topicSubjectTable %global-atts;  class CDATA "+ map/reltable classify-d/topicSubjectTable ">
-<!ATTLIST  topicSubjectHeader %global-atts;  class CDATA "+ map/relrow classify-d/topicSubjectHeader ">
-<!ATTLIST  topicSubjectRow %global-atts;  class CDATA "+ map/relrow classify-d/topicSubjectRow ">
-<!ATTLIST  topicCell    %global-atts;  class CDATA "+ map/relcell classify-d/topicCell ">
-<!ATTLIST  subjectCell  %global-atts;  class CDATA "+ map/relcell classify-d/subjectCell ">
+<!ATTLIST  topicsubject   class CDATA "+ map/topicref classify-d/topicsubject ">
+<!ATTLIST  topicapply     class CDATA "+ map/topicref classify-d/topicapply ">
+<!ATTLIST  subjectref     class CDATA "+ map/topicref classify-d/subjectref ">
+<!ATTLIST  topicSubjectTable   class CDATA "+ map/reltable classify-d/topicSubjectTable ">
+<!ATTLIST  topicSubjectHeader   class CDATA "+ map/relrow classify-d/topicSubjectHeader ">
+<!ATTLIST  topicSubjectRow   class CDATA "+ map/relrow classify-d/topicSubjectRow ">
+<!ATTLIST  topicCell      class CDATA "+ map/relcell classify-d/topicCell ">
+<!ATTLIST  subjectCell    class CDATA "+ map/relcell classify-d/subjectCell ">
 
 <!-- ================== End of DITA Subject Classification Domain ==================== -->
  
