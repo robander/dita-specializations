@@ -32,8 +32,9 @@ Initially, the associated TC members have designated one or more persons to serv
 
 The current Maintainers of this TC Open Repository are: 
 
-* Kris Eberlein, kris@eberleinconsulting.com, keberlein, Eberlein Consulting LLC
-* Eliot Kimber, ekimber@contrext.com, drmacro, Individual member
+* [Kris Eberlein](mailto:kris@eberleinconsulting.com) ('kris@eberleinconsulting.com'), keberlein, Eberlein Consulting LLC
+* [Eliot Kimber](mailto:eliot.kimber@servicenow.com) (`eliot.kimber@servicenow.com`), GitHub ID: [drmacro](https://github.com/drmacro), ServiceNow
+
 
 
 ## About OASIS TC Open Repositories
