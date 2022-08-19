@@ -17,6 +17,9 @@ Initially, this repository contains the grammar files for the following DITA 1.3
 1. Learning and training
 2. Machinery task
 3. Task requirements domain
+1. Classification map
+1. Classification domain
+1. Delayed conref resolution domain
 
 This public development project has been started by the DITA TC, but will depend on participation from the larger DITA user community in order to maintain the specializations and keep them compatible with the latest release of the DITA standard.
 
