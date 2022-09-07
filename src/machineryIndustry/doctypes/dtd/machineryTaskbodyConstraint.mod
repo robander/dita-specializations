@@ -33,12 +33,9 @@
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
 <!--  UPDATES:                                                     -->
+<!--    2022.09.07 KJE: Updated for DITA 2.0                       -->
 <!-- ============================================================= -->
-<!--                                                               -->
 
-<!ENTITY taskbody-constraints
-  "(topic task+taskreq-d machineryTaskbody-c)"
->
 <!ENTITY % prelreqs                                        "prelreqs">
 <!ENTITY % context                                         "context">
 <!ENTITY % section                                         "section">
@@ -46,6 +43,7 @@
 <!ENTITY % steps-unordered                                 "steps-unordered">
 <!ENTITY % steps-informal                                  "steps-informal">
 <!ENTITY % result                                          "result">
+<!ENTITY % tasktroubleshooting                             "tasktroubleshooting">
 <!ENTITY % example                                         "example">
 <!ENTITY % closereqs                                       "closereqs">
 
@@ -57,6 +55,7 @@
                  %steps-unordered; |
                  %steps-informal;)?,
                 (%result;)?,
+                (%tasktroubleshooting;)?,
                 (%example;)*,
                 (%closereqs;)?)"
 >

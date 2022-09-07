@@ -33,6 +33,7 @@
 <!--             All Rights Reserved.                              -->
 <!--  UPDATES:                                                     -->
 <!--    2009.10.20 CHK: Make safecond unbound                      -->
+<!--    2022.09.07 KJE: Updated for DITA 2.0                       -->
 <!-- ============================================================= -->
 <!--                                                               -->
 
@@ -45,14 +46,6 @@
 >
 <!ENTITY % taskreq-d-postreq
   "closereqs"
->
-
-<!-- ============================================================= -->
-<!--                    DOMAIN ENTITY DECLARATION                  -->
-<!-- ============================================================= -->
-
-<!ENTITY taskreq-d-att
-  "(topic task taskreq-d)"
 >
 
 <!-- ================ End DITA Task Requirements Domain ================== -->
