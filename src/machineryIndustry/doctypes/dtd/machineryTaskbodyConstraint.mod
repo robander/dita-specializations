@@ -3,18 +3,23 @@
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
 <!--  MODULE:    DITA Machine Industry Taskbody Constraint         -->
-<!--  VERSION:   1.2                                               -->
-<!--  DATE:      November 2009                                     -->
+<!--  VERSION:   2.0                                               -->
+<!--  DATE:      September 2022                                    -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                    TYPICAL INVOCATION                         -->
 <!--                                                               -->
-<!--  Refer to this file by the following public identifier or an  -->
-<!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA Machinery Taskbody Constraint//EN" -->
-<!--       Delivered as file "machineryTaskbodyConstraint.mod"          -->
+<!--  Refer to this file by the following public identifier.       -->
+<!--                                                               -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.x Machinery Taskbody Constraint//EN" -->
+<!--       Delivered as file "machineryTaskbodyConstraint.mod"     -->
+<!--                                                               -->
+<!-- The public ID above refers to the latest version.             -->
+<!--                                                               -->
+<!-- To refer to this specific version, you can use this value:    -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.x Machinery Taskbody Constraint//EN" -->
 <!-- ============================================================= -->
 <!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
 <!--                                                               -->
@@ -24,7 +29,7 @@
 <!-- ORIGINAL CREATION DATE:                                       -->
 <!--             April 2008                                        -->
 <!--                                                               -->
-<!--             (C) Copyright OASIS Open 2008, 2009.              -->
+<!--             (C) Copyright OASIS Open 2008, 2022.              -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
 <!--  UPDATES:                                                     -->

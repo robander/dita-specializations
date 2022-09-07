@@ -3,28 +3,33 @@
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
 <!--  MODULE:    Task Requirements Domain                          -->
-<!--  VERSION:   1.2                                               -->
-<!--  DATE:      November 2009                                     -->
+<!--  VERSION:   2.0                                               -->
+<!--  DATE:      September 2022                                    -->
 <!--                                                               -->
 <!-- ============================================================= -->
 <!-- ============================================================= -->
 <!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
 <!--                    TYPICAL INVOCATION                         -->
 <!--                                                               -->
-<!--  Refer to this file by the following public identfier or an   -->
-<!--       appropriate system identifier                           -->
-<!-- PUBLIC "-//OASIS//ELEMENTS DITA Task Requirements Domain//EN" -->
-<!--       Delivered as file "taskreqDomain.mod"                        -->
+<!-- Refer to this file by the following public identifier:        -->
+<!--                                                               -->
+<!-- PUBLIC "-//OASIS//ENTITIES DITA 2.x Task Requirements Domain//EN" -->
+<!--       Delivered as file "taskreqDomain.ent"                   -->
+<!--                                                               -->
+<!-- The public ID above refers to the latest version.             -->
+<!--                                                               -->
+<!-- To refer to this specific version, you can use this value:    -->
+<!-- PUBLIC "-//OASIS//ENTITIES DITA 2.0 Task Requirements Domain//EN" -->
 <!-- ============================================================= -->
 <!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
 <!--                                                               -->
-<!-- PURPOSE:    Define elements and specialization attributes     -->
-<!--             for the Task Requirements Domain                  -->
+<!-- PURPOSE:    Define specialization attributes for the task     -->
+<!--             requirements domain                               -->
 <!--                                                               -->
 <!-- ORIGINAL CREATION DATE:                                       -->
 <!--             September 2007                                    -->
 <!--                                                               -->
-<!--             (C) Copyright OASIS Open 2007, 2009.              -->
+<!--             (C) Copyright OASIS Open 2007, 2022.              -->
 <!--             All Rights Reserved.                              -->
 <!--  UPDATES:                                                     -->
 <!--    2009.10.20 CHK: Make safecond unbound                      -->
