@@ -1,77 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-<!--DITA Subject Classification Domain-->
-
-   <group><!-- System ID (URL) catalog entries -->
-     <!-- Errata 02: The next 4 entries have "tc:tc:" where they should have "names:tc:". The correct
-                     versions follow. -->
-      <system systemId="urn:oasis:tc:tc:dita:spec:classification:rng:classifyDomain.rng:1.3"
-              uri="classifyDomain.rng"/>
-      <system systemId="urn:oasis:tc:tc:dita:spec:classification:rng:classifyDomain.rng"
-              uri="classifyDomain.rng"/>
-      <system systemId="urn:oasis:tc:tc:dita:spec:classification:rng:classifyMap.rng:1.3"
-              uri="classifyMap.rng"/>
-      <system systemId="urn:oasis:tc:tc:dita:spec:classification:rng:classifyMap.rng"
-              uri="classifyMap.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:spec:classification:rng:classifyDomain.rng:1.3"
-              uri="classifyDomain.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:spec:classification:rng:classifyDomain.rng:1.x"
-              uri="classifyDomain.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:spec:classification:rng:classifyDomain.rng"
-              uri="classifyDomain.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:spec:classification:rng:classifyMap.rng:1.3"
-              uri="classifyMap.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:spec:classification:rng:classifyMap.rng:1.x"
-              uri="classifyMap.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:spec:classification:rng:classifyMap.rng"
-              uri="classifyMap.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:spec:classification:rng:subjectScheme.rng:1.3"
-              uri="subjectScheme.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:spec:classification:rng:subjectScheme.rng:1.x"
-              uri="subjectScheme.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:spec:classification:rng:subjectScheme.rng"
-              uri="subjectScheme.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:spec:classification:rng:subjectSchemeMod.rng:1.3"
-              uri="subjectSchemeMod.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:spec:classification:rng:subjectSchemeMod.rng:1.x"
-              uri="subjectSchemeMod.rng"/>
-      <system systemId="urn:oasis:names:tc:dita:spec:classification:rng:subjectSchemeMod.rng"
-              uri="subjectSchemeMod.rng"/>
-   </group>
-   <group><!-- Public ID (URN) catalog entries -->
-     <!-- Errata 02: The next 4 entries have "tc:tc:" where they should have "names:tc:". The correct
-                     versions follow. -->     
-      <uri name="urn:oasis:tc:tc:dita:spec:classification:rng:classifyDomain.rng:1.3"
+   <group>
+      <!-- Classification domain -->
+      <uri name="urn:oasis:names:tc:dita:spec:classification:rng:classifyDomain.rng:2.0"
            uri="classifyDomain.rng"/>
-      <uri name="urn:oasis:tc:tc:dita:spec:classification:rng:classifyDomain.rng"
+      <uri name="urn:oasis:names:tc:dita:spec:classification:rng:classifyDomain.rng:12.x"
            uri="classifyDomain.rng"/>
-      <uri name="urn:oasis:tc:tc:dita:spec:classification:rng:classifyMap.rng:1.3"
+     
+      <!-- Document-type shell -->
+      <uri name="urn:oasis:names:tc:dita:spec:classification:rng:classifyMap.rng:2.0"
            uri="classifyMap.rng"/>
-      <uri name="urn:oasis:tc:tc:dita:spec:classification:rng:classifyMap.rng"
+      <uri name="urn:oasis:names:tc:dita:spec:classification:rng:classifyMap.rng:2.x"
            uri="classifyMap.rng"/>
-      <uri name="urn:oasis:names:tc:dita:spec:classification:rng:classifyDomain.rng:1.3"
-           uri="classifyDomain.rng"/>
-      <uri name="urn:oasis:names:tc:dita:spec:classification:rng:classifyDomain.rng:1.x"
-           uri="classifyDomain.rng"/>
-      <uri name="urn:oasis:names:tc:dita:spec:classification:rng:classifyDomain.rng"
-           uri="classifyDomain.rng"/>
-      <uri name="urn:oasis:names:tc:dita:spec:classification:rng:classifyMap.rng:1.3"
-           uri="classifyMap.rng"/>
-      <uri name="urn:oasis:names:tc:dita:spec:classification:rng:classifyMap.rng:1.x"
-           uri="classifyMap.rng"/>
-      <uri name="urn:oasis:names:tc:dita:spec:classification:rng:classifyMap.rng"
-           uri="classifyMap.rng"/>
-      <uri name="urn:oasis:names:tc:dita:spec:classification:rng:subjectScheme.rng:1.3"
-           uri="subjectScheme.rng"/>
-      <uri name="urn:oasis:names:tc:dita:spec:classification:rng:subjectScheme.rng:1.x"
-           uri="subjectScheme.rng"/>
-      <uri name="urn:oasis:names:tc:dita:spec:classification:rng:subjectScheme.rng"
-           uri="subjectScheme.rng"/>
-      <uri name="urn:oasis:names:tc:dita:spec:classification:rng:subjectSchemeMod.rng:1.3"
-           uri="subjectSchemeMod.rng"/>
-      <uri name="urn:oasis:names:tc:dita:spec:classification:rng:subjectSchemeMod.rng:1.x"
-           uri="subjectSchemeMod.rng"/>
-      <uri name="urn:oasis:names:tc:dita:spec:classification:rng:subjectSchemeMod.rng"
-           uri="subjectSchemeMod.rng"/>
    </group>
 </catalog>
