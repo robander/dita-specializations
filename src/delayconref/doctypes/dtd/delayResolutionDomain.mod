@@ -3,19 +3,32 @@
 <!--                    HEADER                                     -->
 <!-- ============================================================= -->
 <!--  MODULE:    DITA Delayed Resolution Domain                    -->
-<!--  VERSION:   1.2                                               -->
-<!--  DATE:      November 2009                                     -->
+<!--  VERSION:   2.0                                               -->
+<!--  DATE:      September 2022                                    -->
 <!--                                                               -->
+<!-- ============================================================= -->
+<!-- ============================================================= -->
+<!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
+<!--                    TYPICAL INVOCATION                         -->
+<!--                                                               -->
+<!-- Refer to this file by the following public identifier:        -->
+<!--                                                               -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.x Delayed Resolution Domain//EN" -->
+<!--       Delivered as file "delayResolutionDomain.mod"           -->
+<!--                                                               -->
+<!-- The public ID above refers to the latest version.             -->
+<!--                                                               -->
+<!-- To refer to this specific version, you can use this value:    -->
+<!-- PUBLIC "-//OASIS//ELEMENTS DITA 2.0 Delayed Resolution Domain//EN" -->
 <!-- ============================================================= -->
 <!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
 <!--                                                               -->
-<!-- PURPOSE:    Define elements and specialization attributes     -->
-<!--             for Delayed Resolution Domain                     -->
+<!-- PURPOSE:    Define elements for the delayed conref domain     -->
 <!--                                                               -->
 <!-- ORIGINAL CREATION DATE:                                       -->
 <!--             February 2008                                     -->
 <!--                                                               -->
-<!--             (C) Copyright OASIS Open 2008, 2009.              -->
+<!--             (C) Copyright OASIS Open 2008, 2022.              -->
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
 <!--  UPDATES:                                                     -->
