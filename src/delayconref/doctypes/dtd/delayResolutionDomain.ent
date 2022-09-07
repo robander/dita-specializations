@@ -31,6 +31,7 @@
 <!--             All Rights Reserved.                              -->
 <!--                                                               -->
 <!--  UPDATES:                                                     -->
+<!--     07 Sep 2022 KJE Updated for DITA 2.0                      -->
 <!-- ============================================================= -->
 <!--                                                               -->
 
@@ -40,14 +41,6 @@
 
 <!ENTITY % delay-d-keywords
   "exportanchors"
->
-
-<!-- ============================================================= -->
-<!--                    DOMAIN ENTITY DECLARATION                  -->
-<!-- ============================================================= -->
-
-<!ENTITY delay-d-att
-  "(topic delay-d)"
 >
 
 <!-- ================ End DITA Delay Resolution Domain ================== -->
